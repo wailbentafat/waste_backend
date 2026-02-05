@@ -1,0 +1,48 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.13.0
+
+# Database & ORM
+pymongo==4.6.0
+motor==3.3.2
+asyncpg==0.29.0
+
+# MQTT & Real-time
+paho-mqtt==1.6.1
+redis==5.0.1
+aioredis==2.0.1
+
+# Computer Vision & ML
+opencv-python==4.8.1
+ultralytics==8.0.206
+numpy==1.24.3
+pillow==10.1.0
+
+# Security & Auth
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.2
+passlib[bcrypt]==1.7.4
+
+# WebSocket & File Handling
+python-socketio==5.10.0
+python-multipart==0.0.6
+aiofiles==23.2.0
+
+# Rate Limiting & Monitoring
+slowapi==0.1.9
+prometheus-client==0.18.0
+structlog==23.1.0
+
+# Environment & Config
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+pytest-redis==3.0.2
